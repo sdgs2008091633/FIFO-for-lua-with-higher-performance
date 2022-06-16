@@ -40,7 +40,7 @@ self.c=self.c+1
 self[self.n]=i
 end
 
---out
+--pop out
 function _Q:tr()
 	if self.r==self.n then return end
 	if self.n>self.r then 
