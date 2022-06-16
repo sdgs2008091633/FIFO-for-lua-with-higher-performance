@@ -1,7 +1,7 @@
 --FIFO
 --n:insert count,r:remove count,m:maxcache size,c: collectgarbage count
  
-local _Q={n=0,r=0,m=512,c=6553500}
+local _Q={n=0,r=0,m=512,c=65535}
 --create queue
 function _Q:new(m,c)
     local o=o or {}
